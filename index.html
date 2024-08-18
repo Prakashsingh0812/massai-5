@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter city name">
+        </div>
+        <div class="weather-info">
+            <h2 id="cityName">City Name</h2>
+            <p id="temperature">Temperature</p>
+            <p id="weatherDescription">Weather Description</p>
+        </div>
+        <div id="forecast"></div>
+        <button id="themeToggle">Toggle Theme</button>
+        <button onclick="toggleScrollingMode()">Toggle Scrolling Mode</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
